@@ -58,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				4641B9A325C324410061340A /* SafetyApp2App.swift */,
+				4641B9C625C324830061340A /* Model */,
+				4641B9C725C324900061340A /* Views */,
 				4641B9A425C324410061340A /* ContentView.swift */,
 				4641B9A525C324480061340A /* Assets.xcassets */,
 			);
@@ -88,6 +90,20 @@
 				4641B9B525C324480061340A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4641B9C625C324830061340A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4641B9C725C324900061340A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
