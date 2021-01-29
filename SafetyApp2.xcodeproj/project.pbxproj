@@ -13,6 +13,8 @@
 		4641B9B925C324480061340A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B9A425C324410061340A /* ContentView.swift */; };
 		4641B9BA25C324480061340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9A525C324480061340A /* Assets.xcassets */; };
 		4641B9BB25C324480061340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9A525C324480061340A /* Assets.xcassets */; };
+		4641B9CC25C326440061340A /* safetylocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9CB25C326440061340A /* safetylocations.json */; };
+		4641B9CD25C326440061340A /* safetylocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9CB25C326440061340A /* safetylocations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		4641B9B225C324480061340A /* SafetyApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4641B9B425C324480061340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4641B9B525C324480061340A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4641B9CB25C326440061340A /* safetylocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = safetylocations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		4641B9C625C324830061340A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4641B9CB25C326440061340A /* safetylocations.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641B9CC25C326440061340A /* safetylocations.json in Resources */,
 				4641B9BA25C324480061340A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641B9CD25C326440061340A /* safetylocations.json in Resources */,
 				4641B9BB25C324480061340A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

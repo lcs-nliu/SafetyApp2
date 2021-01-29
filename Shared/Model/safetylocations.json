@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Toronto Police Service - 11 Division",
+        "address": "2054 Davenport Rd",
+        "latitude": 43.671088,
+        "longitude": -79.460529,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex":
+    },
+    {
+        "id": 2,
+        "name": "Toronto Police Service - 12 Division",
+        "address": "200 Trethewey Dr",
+        "latitude": 43.694548,
+        "longitude": -79.486934,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 3,
+        "name": "Toronto Police Service - 13 Division",
+        "address": "1435 Eglinton Av W",
+        "latitude": 43.698464,
+        "longitude": -79.436721,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 4,
+        "name": "Toronto Police Service - 14 Division",
+        "address": "350 Dovercourt Rd",
+        "latitude": 43.651293,
+        "longitude": -79.425705,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 5,
+        "name": "Toronto Police Service - 22 Division",
+        "address": "3699 Bloor St W",
+        "latitude": 43.642886,
+        "longitude": -79.530567,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 6,
+        "name": "Toronto Police Service - 23 Division",
+        "address": "5230 Finch Av W",
+        "latitude": 43.743860,
+        "longitude": -79.584464,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 7,
+        "name": "Toronto Police Service - 31 Division",
+        "address": "40 Norfinch Dr",
+        "latitude": 43.756885,
+        "longitude": -79.527110,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 8,
+        "name": "Toronto Police Service - 32 Division",
+        "address": "30 Ellerslie Av",
+        "latitude": 43.772112,
+        "longitude": -79.415341,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 9,
+        "name": "Toronto Police Service - 33 Division",
+        "address": "50 Upjohn Rd",
+        "latitude": 43.751211,
+        "longitude": -79.349767,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 10,
+        "name": "Toronto Police Service - 41 Division",
+        "address": "2222 Eglinton Av E",
+        "latitude": 43.730679,
+        "longitude": -79.2771274,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 11,
+        "name": "Toronto Police Service - 42 Division",
+        "address": "242 Milner Av E",
+        "latitude": 43.789562,
+        "longitude": -79.239885,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 12,
+        "name": "Toronto Police Service - 43 Division",
+        "address": "4331 Lawrence Av E",
+        "latitude": 43.770887,
+        "longitude": -79.173997,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 13,
+        "name": "Toronto Police Service - 51 Division",
+        "address": "51 Parliament St",
+        "latitude": 43.652144,
+        "longitude": -79.362502,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    
+    {
+        "id": 14,
+        "name": "Toronto Police Service - 52 Division",
+        "address": "255 Dundas St W",
+        "latitude": 43.654420,
+        "longitude": -79.389385,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    
+    {
+        "id": 15,
+        "name": "Toronto Police Service - 53 Division",
+        "address": "75 Eglinton Av W",
+        "latitude": 43.706219,
+        "longitude": -79.400499,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+    {
+        "id": 16,
+        "name": "Toronto Police Service - 54 Division",
+        "address": "41 Cranfield Rd",
+        "latitude": 43.714761,
+        "longitude": -79.309454,
+        "heroPicture": "highlands",
+        "pictures": ["photo2", "photo3", "photo4"],
+        "safetyIndex": ""
+    },
+]
