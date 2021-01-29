@@ -5,9 +5,7 @@
         "address": "2054 Davenport Rd",
         "latitude": 43.671088,
         "longitude": -79.460529,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex":
+        "heroPicture": "div11"
     },
     {
         "id": 2,
@@ -15,9 +13,7 @@
         "address": "200 Trethewey Dr",
         "latitude": 43.694548,
         "longitude": -79.486934,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div12"
     },
     {
         "id": 3,
@@ -25,9 +21,7 @@
         "address": "1435 Eglinton Av W",
         "latitude": 43.698464,
         "longitude": -79.436721,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div13"
     },
     {
         "id": 4,
@@ -35,9 +29,7 @@
         "address": "350 Dovercourt Rd",
         "latitude": 43.651293,
         "longitude": -79.425705,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div14"
     },
     {
         "id": 5,
@@ -45,9 +37,7 @@
         "address": "3699 Bloor St W",
         "latitude": 43.642886,
         "longitude": -79.530567,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div22"
     },
     {
         "id": 6,
@@ -55,9 +45,7 @@
         "address": "5230 Finch Av W",
         "latitude": 43.743860,
         "longitude": -79.584464,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div23"
     },
     {
         "id": 7,
@@ -65,9 +53,7 @@
         "address": "40 Norfinch Dr",
         "latitude": 43.756885,
         "longitude": -79.527110,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div31"
     },
     {
         "id": 8,
@@ -75,9 +61,7 @@
         "address": "30 Ellerslie Av",
         "latitude": 43.772112,
         "longitude": -79.415341,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div32"
     },
     {
         "id": 9,
@@ -85,9 +69,7 @@
         "address": "50 Upjohn Rd",
         "latitude": 43.751211,
         "longitude": -79.349767,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div33"
     },
     {
         "id": 10,
@@ -95,9 +77,7 @@
         "address": "2222 Eglinton Av E",
         "latitude": 43.730679,
         "longitude": -79.2771274,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div41"
     },
     {
         "id": 11,
@@ -105,9 +85,7 @@
         "address": "242 Milner Av E",
         "latitude": 43.789562,
         "longitude": -79.239885,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div42"
     },
     {
         "id": 12,
@@ -115,9 +93,7 @@
         "address": "4331 Lawrence Av E",
         "latitude": 43.770887,
         "longitude": -79.173997,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div43"
     },
     {
         "id": 13,
@@ -125,9 +101,7 @@
         "address": "51 Parliament St",
         "latitude": 43.652144,
         "longitude": -79.362502,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div51"
     },
     
     {
@@ -136,9 +110,7 @@
         "address": "255 Dundas St W",
         "latitude": 43.654420,
         "longitude": -79.389385,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div52"
     },
     
     {
@@ -147,9 +119,7 @@
         "address": "75 Eglinton Av W",
         "latitude": 43.706219,
         "longitude": -79.400499,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div53"
     },
     {
         "id": 16,
@@ -157,8 +127,6 @@
         "address": "41 Cranfield Rd",
         "latitude": 43.714761,
         "longitude": -79.309454,
-        "heroPicture": "highlands",
-        "pictures": ["photo2", "photo3", "photo4"],
-        "safetyIndex": ""
+        "heroPicture": "div54"
     },
 ]
