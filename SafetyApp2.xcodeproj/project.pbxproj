@@ -15,6 +15,10 @@
 		4641B9BB25C324480061340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9A525C324480061340A /* Assets.xcassets */; };
 		4641B9CC25C326440061340A /* safetylocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9CB25C326440061340A /* safetylocations.json */; };
 		4641B9CD25C326440061340A /* safetylocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9CB25C326440061340A /* safetylocations.json */; };
+		4641BA0425C3B41C0061340A /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0325C3B41B0061340A /* PoliceStation.swift */; };
+		4641BA0525C3B41C0061340A /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0325C3B41B0061340A /* PoliceStation.swift */; };
+		4641BA0925C3B4AE0061340A /* PoliceStationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */; };
+		4641BA0A25C3B4AE0061340A /* PoliceStationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,8 @@
 		4641B9B425C324480061340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4641B9B525C324480061340A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4641B9CB25C326440061340A /* safetylocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = safetylocations.json; sourceTree = "<group>"; };
+		4641BA0325C3B41B0061340A /* PoliceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStation.swift; sourceTree = "<group>"; };
+		4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStationStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				4641B9CB25C326440061340A /* safetylocations.json */,
+				4641BA0325C3B41B0061340A /* PoliceStation.swift */,
+				4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641BA0425C3B41C0061340A /* PoliceStation.swift in Sources */,
+				4641BA0925C3B4AE0061340A /* PoliceStationStore.swift in Sources */,
 				4641B9B825C324480061340A /* ContentView.swift in Sources */,
 				4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */,
 			);
@@ -218,6 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641BA0525C3B41C0061340A /* PoliceStation.swift in Sources */,
+				4641BA0A25C3B4AE0061340A /* PoliceStationStore.swift in Sources */,
 				4641B9B925C324480061340A /* ContentView.swift in Sources */,
 				4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */,
 			);
