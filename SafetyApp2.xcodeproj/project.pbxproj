@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B9A325C324410061340A /* SafetyApp2App.swift */; };
 		4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B9A325C324410061340A /* SafetyApp2App.swift */; };
-		4641B9B825C324480061340A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B9A425C324410061340A /* ContentView.swift */; };
-		4641B9B925C324480061340A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B9A425C324410061340A /* ContentView.swift */; };
 		4641B9BA25C324480061340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9A525C324480061340A /* Assets.xcassets */; };
 		4641B9BB25C324480061340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9A525C324480061340A /* Assets.xcassets */; };
 		4641B9CC25C326440061340A /* safetylocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4641B9CB25C326440061340A /* safetylocations.json */; };
@@ -19,11 +17,12 @@
 		4641BA0525C3B41C0061340A /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0325C3B41B0061340A /* PoliceStation.swift */; };
 		4641BA0925C3B4AE0061340A /* PoliceStationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */; };
 		4641BA0A25C3B4AE0061340A /* PoliceStationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */; };
+		4641BA1425C3B6990061340A /* StationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA1325C3B6990061340A /* StationDetail.swift */; };
+		4641BA1525C3B6990061340A /* StationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641BA1325C3B6990061340A /* StationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4641B9A325C324410061340A /* SafetyApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyApp2App.swift; sourceTree = "<group>"; };
-		4641B9A425C324410061340A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4641B9A525C324480061340A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4641B9AA25C324480061340A /* SafetyApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4641B9AD25C324480061340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		4641B9CB25C326440061340A /* safetylocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = safetylocations.json; sourceTree = "<group>"; };
 		4641BA0325C3B41B0061340A /* PoliceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStation.swift; sourceTree = "<group>"; };
 		4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStationStore.swift; sourceTree = "<group>"; };
+		4641BA1325C3B6990061340A /* StationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 				4641B9A325C324410061340A /* SafetyApp2App.swift */,
 				4641B9C625C324830061340A /* Model */,
 				4641B9C725C324900061340A /* Views */,
-				4641B9A425C324410061340A /* ContentView.swift */,
 				4641B9A525C324480061340A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -114,6 +113,7 @@
 		4641B9C725C324900061340A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4641BA1325C3B6990061340A /* StationDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 			files = (
 				4641BA0425C3B41C0061340A /* PoliceStation.swift in Sources */,
 				4641BA0925C3B4AE0061340A /* PoliceStationStore.swift in Sources */,
-				4641B9B825C324480061340A /* ContentView.swift in Sources */,
+				4641BA1425C3B6990061340A /* StationDetail.swift in Sources */,
 				4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +230,7 @@
 			files = (
 				4641BA0525C3B41C0061340A /* PoliceStation.swift in Sources */,
 				4641BA0A25C3B4AE0061340A /* PoliceStationStore.swift in Sources */,
-				4641B9B925C324480061340A /* ContentView.swift in Sources */,
+				4641BA1525C3B6990061340A /* StationDetail.swift in Sources */,
 				4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

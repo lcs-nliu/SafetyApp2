@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SafetyApp2App: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StationDetail(policeStation: PoliceStation.example)
         }
     }
 }

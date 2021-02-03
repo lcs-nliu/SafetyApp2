@@ -26,3 +26,5 @@ class PoliceStationStore: ObservableObject {
         
     }
 }
+
+var testStore = PoliceStationStore()
