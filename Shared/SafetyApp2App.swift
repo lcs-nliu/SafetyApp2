@@ -12,8 +12,24 @@ struct SafetyApp2App: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                MapView (store: testStore)
+            
+            TabView {
+                NavigationView {
+                    MapView (store: testStore)
+                }
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Map")
+                }
+                
+                NavigationView{
+                    HelpPage()
+                }
+                .tabItem {
+                    Image(systemName: "questionmark.circle.fill")
+                    Text("Help")
+                }
+                
             }
         }
     }
