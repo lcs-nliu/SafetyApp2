@@ -46,7 +46,7 @@
         "secInCharge": "Inspector Joseph Matthews",
         "communityResponse": "Staff Sergeant John Stockfish, 416-808-1386",
         "communityRelations": "Constable Ricardo Clayton, 416-808-1308",
-        "crimePrevention": "Constable Steven Morrison, 416-808-1387"
+        "crimePrevention": "Constable Steven Morrison, 416-808-1387",
         "about": "13 Division is located at 1435 Eglinton Ave. W. in Toronto. This is opposite the Eglinton Ave. W. subway station. There is on-street parking on Winnett Ave., outside the front door of the station. Public transportation also provides easy direct access to the station. If arriving by subway, exit at the Eglinton Ave. W. subway station, cross Eglinton Ave. W. and the station is immediately in front of you. The public entrance is off Winnett Ave. The station is open 24 hours a day. The main floor is accessible to the physically challenged. 13 Division provides policing services to the core area of the old City of York, the central suburb of Toronto, covering a total of 19.2 square kilometres.",
         "latitude": 43.698464,
         "longitude": -79.436721,
@@ -82,7 +82,7 @@
         "secInCharge": "Inspector Timothy Crone",
         "communityResponse": "Staff Sergeant Mario Teixiera, 416-808-2213",
         "communityRelations": "Contact Crime Prevention Officer",
-        "crimePrevention": "Const. Marco Ricciardi, 416-808-2251 \n" + "Const. Tomasz Balaga, 416-808-2237",
+        "crimePrevention": "Const. Marco Ricciardi, 416-808-2251 and Const. Tomasz Balaga, 416-808-2237",
         "about": "22 Division provides policing services to the central and southern area of the former city of Etobicoke, covering a total of 66.9 square kilometres, including that area previously policed by 21 Division. This is the western suburb of Toronto with a population of approximately 191,813 (Toronto Police Service Annual Report, 2000). Our station is located at 3699 Bloor St. W. This is centred between Kipling and Islington Aves. Public transportation provides easy access to the station. If arriving by subway, exit at the Islington subway station, cross Bloor St. W. and the station is 250 metres west on Bloor. The station has public parking and is wheelchair accessible.",
         "latitude": 43.642886,
         "longitude": -79.530567,
