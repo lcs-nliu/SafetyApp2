@@ -6,7 +6,8 @@
         "address": "2054 Davenport Rd",
         "latitude": 43.671088,
         "longitude": -79.460529,
-        "heroPicture": "div11"
+        "heroPicture": "div11",
+        "type": "police"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "division": "Division 12",
         "latitude": 43.694548,
         "longitude": -79.486934,
-        "heroPicture": "div12"
+        "heroPicture": "div12",
+        "type": "police"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "division": "Division 13",
         "latitude": 43.698464,
         "longitude": -79.436721,
-        "heroPicture": "div13"
+        "heroPicture": "div13",
+        "type": "police"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "division": "Division 14",
         "latitude": 43.651293,
         "longitude": -79.425705,
-        "heroPicture": "div14"
+        "heroPicture": "div14",
+        "type": "police"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "division": "Division 22",
         "latitude": 43.642886,
         "longitude": -79.530567,
-        "heroPicture": "div22"
+        "heroPicture": "div22",
+        "type": "police"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "division": "Division 23",
         "latitude": 43.743860,
         "longitude": -79.584464,
-        "heroPicture": "div23"
+        "heroPicture": "div23",
+        "type": "police"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "division": "Division 31",
         "latitude": 43.756885,
         "longitude": -79.527110,
-        "heroPicture": "div31"
+        "heroPicture": "div31",
+        "type": "police"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "division": "Division 32",
         "latitude": 43.772112,
         "longitude": -79.415341,
-        "heroPicture": "div32"
+        "heroPicture": "div32",
+        "type": "police"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "division": "Division 33",
         "latitude": 43.751211,
         "longitude": -79.349767,
-        "heroPicture": "div33"
+        "heroPicture": "div33",
+        "type": "police"
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "division": "Division 41",
         "latitude": 43.730679,
         "longitude": -79.2771274,
-        "heroPicture": "div41"
+        "heroPicture": "div41",
+        "type": "police"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "division": "Division 42",
         "latitude": 43.789562,
         "longitude": -79.239885,
-        "heroPicture": "div42"
+        "heroPicture": "div42",
+        "type": "police"
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "division": "Division 43",
         "latitude": 43.770887,
         "longitude": -79.173997,
-        "heroPicture": "div43"
+        "heroPicture": "div43",
+        "type": "police"
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "division": "Division 51",
         "latitude": 43.652144,
         "longitude": -79.362502,
-        "heroPicture": "div51"
+        "heroPicture": "div51",
+        "type": "police"
     },
     
     {
@@ -124,7 +137,8 @@
         "division": "Division 52",
         "latitude": 43.654420,
         "longitude": -79.389385,
-        "heroPicture": "div52"
+        "heroPicture": "div52",
+        "type": "police"
     },
     
     {
@@ -134,7 +148,8 @@
         "division": "Division 53",
         "latitude": 43.706219,
         "longitude": -79.400499,
-        "heroPicture": "div53"
+        "heroPicture": "div53",
+        "type": "police"
     },
     {
         "id": 16,
@@ -143,6 +158,7 @@
         "division": "Division 54",
         "latitude": 43.714761,
         "longitude": -79.309454,
-        "heroPicture": "div54"
+        "heroPicture": "div54",
+        "type": "police"
     },
 ]

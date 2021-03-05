@@ -12,7 +12,9 @@ struct SafetyApp2App: App {
     
     var body: some Scene {
         WindowGroup {
-            StationDetail(policeStation: PoliceStation.example)
+            NavigationView {
+                MapView (store: testStore)
+            }
         }
     }
 }
