@@ -15,34 +15,47 @@ struct StationDetail: View {
     var body: some View {
         
         ScrollView {
-            VStack {
-                
+
                 Image(policeStation.heroPicture)
                     .resizable()
                     .scaledToFit()
-                
-                HStack {
-                Text(policeStation.division)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                    .padding(.horizontal)
-                    .font(.title2)
-                    Spacer()
-    
-                    
-                }
-                
-                
-                HStack {
+            
+            VStack (alignment: .leading, spacing: 1)  {
+            
                 Text("Address: \(policeStation.address)")
-                    .multilineTextAlignment(.leading)
-                    .padding(.horizontal)
-                    .font(.title2)
-                    Spacer()
-                    
+                    .padding([.horizontal,.bottom])
+
+                HStack {
+                Text("Phone:")
+        Link("\(policeStation.phone)", destination: URL(string: "tel:1\(policeStation.phone)")!)
                 }
+                .padding([.horizontal,.bottom])
                 
+    
+                Text("Website:")
+                    .padding(.horizontal)
+                Link("\(policeStation.website)", destination: URL(string:"\(policeStation.website)")!)
+                .padding([.horizontal,.bottom])
+
+                Text("Unit Commander: \(policeStation.unitCommander)")
+                    .padding([.horizontal,.bottom])
                 
+                Text("2nd in Charge: \(policeStation.secInCharge)")
+                    .padding([.horizontal,.bottom])
+
+                Text("Community Response Unit Manager: \(policeStation.communityResponse)")
+                    .padding([.horizontal,.bottom])
+                
+                Text("Community Relations Officer: \(policeStation.communityRelations)")
+                    .padding([.horizontal,.bottom])
+                
+                Text("Crime Prevention Officer: \(policeStation.crimePrevention)")
+                    .padding([.horizontal,.bottom])
+                
+                Text(policeStation.about)
+                    .padding([.horizontal,.bottom])
+
+
                 
             }
             .navigationTitle(policeStation.name)
