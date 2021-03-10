@@ -18,35 +18,52 @@ struct RespiteCentreDetail: View {
             Image(respiteCentre.logoPicture)
                 .resizable()
                 .scaledToFit()
-        
-        VStack (alignment: .leading, spacing: 1)  {
             
-            Text("Address: \(respiteCentre.address)")
+            VStack (alignment: .leading, spacing: 1)  {
+                
+                Text("Address: \(respiteCentre.address)")
+                    .padding([.horizontal,.bottom])
+                
+                HStack {
+                    Text("Phone:")
+                    Link("\(respiteCentre.phone)", destination: URL(string: "tel:1\(respiteCentre.phone)")!)
+                }
                 .padding([.horizontal,.bottom])
-
-            HStack {
-            Text("Phone:")
-    Link("\(respiteCentre.phone)", destination: URL(string: "tel:1\(respiteCentre.phone)")!)
+                
+                HStack {
+                    Text("Website:")
+                    
+                    Link("\(respiteCentre.website)", destination: URL(string:"\(respiteCentre.website)")!)
+                }
+                .padding([.horizontal,.bottom])
+                
+                Text("Client Group: \(respiteCentre.clientGroup)")
+                    .padding([.horizontal,.bottom])
+                
+                
+                // Conditionally show picture
+                if !respiteCentre.picture.isEmpty {
+                    
+                    Text(respiteCentre.about)
+                        .padding([.horizontal,.bottom])
+                    
+                    Image(respiteCentre.picture)
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Spacer()
+                    
+                } else {
+                    
+                    // Show only the about
+                    Text(respiteCentre.about)
+                        .padding([.horizontal,.bottom])
+                        .padding([.horizontal,.bottom])
+                }
+                
             }
-            .padding([.horizontal,.bottom])
+            .navigationTitle(respiteCentre.name)
             
-            HStack {
-            Text("Website:")
-
-            Link("\(respiteCentre.website)", destination: URL(string:"\(respiteCentre.website)")!)
-            }
-            .padding([.horizontal,.bottom])
-            
-            Text("Client Group: \(respiteCentre.clientGroup)")
-                .padding([.horizontal,.bottom])
-            
-            Text(respiteCentre.about)
-                .padding([.horizontal,.bottom])
-            
-            
-        }
-        .navigationTitle(respiteCentre.name)
-        
         }
     }
 }
@@ -54,7 +71,7 @@ struct RespiteCentreDetail: View {
 struct RespiteCentreDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-        RespiteCentreDetail(respiteCentre: RespiteCentre.respiteExample)
+            RespiteCentreDetail(respiteCentre: RespiteCentre.respiteExample)
         }
     }
 }
