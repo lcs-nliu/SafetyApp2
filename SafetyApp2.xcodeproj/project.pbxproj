@@ -29,6 +29,8 @@
 		46EB3EA725F7E41C001C07DA /* respitelocations.json in Resources */ = {isa = PBXBuildFile; fileRef = 46EB3EA525F7E41C001C07DA /* respitelocations.json */; };
 		46EB3EAD25F87901001C07DA /* RespiteCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EAC25F87901001C07DA /* RespiteCentre.swift */; };
 		46EB3EAE25F87901001C07DA /* RespiteCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EAC25F87901001C07DA /* RespiteCentre.swift */; };
+		46EB3EB225F8893A001C07DA /* RespiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EB125F8893A001C07DA /* RespiteStore.swift */; };
+		46EB3EB325F8893A001C07DA /* RespiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EB125F8893A001C07DA /* RespiteStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,7 @@
 		46EB3E9E25F7DEFB001C07DA /* shelterlocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shelterlocations.json; sourceTree = "<group>"; };
 		46EB3EA525F7E41C001C07DA /* respitelocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = respitelocations.json; sourceTree = "<group>"; };
 		46EB3EAC25F87901001C07DA /* RespiteCentre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiteCentre.swift; sourceTree = "<group>"; };
+		46EB3EB125F8893A001C07DA /* RespiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiteStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 				4641BA0825C3B4AE0061340A /* PoliceStationStore.swift */,
 				46EB3EA525F7E41C001C07DA /* respitelocations.json */,
 				46EB3EAC25F87901001C07DA /* RespiteCentre.swift */,
+				46EB3EB125F8893A001C07DA /* RespiteStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -247,6 +251,7 @@
 				4641BA1425C3B6990061340A /* StationDetail.swift in Sources */,
 				4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08C25F1D89E004EAA78 /* HelpPage.swift in Sources */,
+				46EB3EB225F8893A001C07DA /* RespiteStore.swift in Sources */,
 				46EB3EAD25F87901001C07DA /* RespiteCentre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +266,7 @@
 				4641BA1525C3B6990061340A /* StationDetail.swift in Sources */,
 				4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08D25F1D89E004EAA78 /* HelpPage.swift in Sources */,
+				46EB3EB325F8893A001C07DA /* RespiteStore.swift in Sources */,
 				46EB3EAE25F87901001C07DA /* RespiteCentre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
