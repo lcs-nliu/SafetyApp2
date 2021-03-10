@@ -10,7 +10,8 @@
         "latitude": 43.67221270238937,
         "longitude":  -79.3844525021156,
         "logoPicture": "margaret",
-        "picture": ""
+        "picture": "",
+        "type": "respite"
     },
     
     {
@@ -24,7 +25,8 @@
         "latitude": 43.65963953393066,
         "longitude":  -79.37454185978666,
         "logoPicture": "dixon",
-        "picture": ""
+        "picture": "",
+        "type": "respite"
     },
     {
         "id": 3,
@@ -37,7 +39,8 @@
         "latitude": 43.64815293518712,
         "longitude":  -79.35965611561048,
         "logoPicture": "dixon",
-        "picture": ""
+        "picture": "",
+        "type": "respite"
     },
     {
         "id": 4,
@@ -50,7 +53,8 @@
         "latitude": 43.649165495370006,
         "longitude":  -79.39965350211635,
         "logoPicture": "stfelix",
-        "picture": "stFelix1"
+        "picture": "stFelix1",
+        "type": "respite"
     },
     
     {
@@ -64,7 +68,8 @@
         "latitude": 43.635835913762755,
         "longitude":  -79.40879287862707,
         "logoPicture": "fred",
-        "picture": ""
+        "picture": "",
+        "type": "respite"
     },
     
     
@@ -79,7 +84,8 @@
         "latitude": 43.63812304671845,
         "longitude":  -79.42367068669957,
         "logoPicture": "stfelix",
-        "picture": "stFelix2"
+        "picture": "stFelix2",
+        "type": "respite"
     },
     
     {
@@ -93,7 +99,8 @@
         "latitude": 43.63182975294361,
         "longitude":  -79.42085475971344,
         "logoPicture": "homesfirst",
-        "picture": "betterLiving"
+        "picture": "betterLiving",
+        "type": "respite"
     },
     
     

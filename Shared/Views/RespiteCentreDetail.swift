@@ -42,8 +42,6 @@ struct RespiteCentreDetail: View {
             
             Text(respiteCentre.about)
                 .padding([.horizontal,.bottom])
-
-            
             
             
         }
