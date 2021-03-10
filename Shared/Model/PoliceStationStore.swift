@@ -12,7 +12,7 @@ class PoliceStationStore: ObservableObject {
     
     init() {
         // Pointer to JSON
-        let url = Bundle.main.url(forResource: "safetylocations", withExtension: "json")!
+        let url = Bundle.main.url(forResource: "policelocations", withExtension: "json")!
         
         // Load contents of JSON
         
