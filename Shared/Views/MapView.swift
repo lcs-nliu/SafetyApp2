@@ -34,7 +34,7 @@ struct MapView: View {
             }
             
         }
-            .navigationTitle("Toronto Map")
+        .navigationTitle("Toronto Map")
     }
 }
 

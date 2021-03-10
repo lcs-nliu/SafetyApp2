@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Ernestine's Women's Shelter",
+        "phone": "4167463701",
+        "website": "www.ernestines.ca",
+        "about": "If you or your children are experiencing any form of abuse – it is not your fault and you are not alone. We Can Help! You and your children deserve the opportunity to experience a life free of violence, fear, degradation, yelling, hitting and sexual assault. You deserve to know your rights, to make your own choices and your own mistakes without punishment. At Ernestine’s we understand that leaving an abusive situation may be one of the most difficult and dangerous decisions you will ever make. Ernestine’s strives to be inclusive by offering client centred services to children, youth and women who have experienced and/or witnessed violence. At Ernestine’s we work within an anti-racism and anti-oppression framework, and we value each person’s individual identity. Ernestine’s provides a roof over your head, a bed, basic necessities, counselling and other supportive services that are free and confidential.",
+        "shelterStage": "1st Stage",
+        "wheelchairAccessibility": "Fully Accessible",
+        "petsAllowed": "offsite",
+        "childrenProgramming": "onsite",
+        "latitude": 43.72852865679361,
+        "longitude": -79.57423786813501,
+        "heroPicture": "highlands",
+    },
+    
+]
