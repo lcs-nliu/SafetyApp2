@@ -15,7 +15,7 @@ struct SafetyApp2App: App {
             
             TabView {
                 NavigationView {
-                    MapView (store: testStore, respiteStore: testStore2)
+                    MapView (store: testStore)
                 }
                 .tabItem {
                     Image(systemName: "map")
