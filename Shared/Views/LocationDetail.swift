@@ -22,9 +22,12 @@ struct LocationDetail: View {
             
             VStack (alignment: .leading, spacing: 1)  {
             
+                if !safetyLocation.address.isEmpty {
                 Text("Address: \(safetyLocation.address)")
                     .padding([.horizontal,.bottom])
 
+                }
+                
                 HStack {
                 Text("Phone:")
         Link("\(safetyLocation.phone)", destination: URL(string: "tel:1\(safetyLocation.phone)")!)
@@ -43,6 +46,7 @@ struct LocationDetail: View {
                     
                     Text(safetyLocation.about)
                         .padding([.horizontal,.bottom])
+                        .fixedSize(horizontal: false, vertical: true)
                     
                     Image(safetyLocation.picture)
                         .resizable()
@@ -55,6 +59,7 @@ struct LocationDetail: View {
                     // Show only the about
                     Text(safetyLocation.about)
                         .padding([.horizontal,.bottom])
+                        .fixedSize(horizontal: false, vertical: true)
                 }
                 
             }
@@ -69,7 +74,7 @@ struct LocationDetail: View {
 struct LocationDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            LocationDetail(safetyLocation: SafetyLocation.policeExample)
+            LocationDetail(safetyLocation: SafetyLocation.respiteExample)
         }
     }
 }
