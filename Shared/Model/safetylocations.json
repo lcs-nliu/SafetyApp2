@@ -315,8 +315,8 @@
         "about": "If you or your children are experiencing any form of abuse – it is not your fault and you are not alone. We Can Help! You and your children deserve the opportunity to experience a life free of violence, fear, degradation, yelling, hitting and sexual assault. You deserve to know your rights, to make your own choices and your own mistakes without punishment. At Ernestine’s we understand that leaving an abusive situation may be one of the most difficult and dangerous decisions you will ever make. Ernestine’s strives to be inclusive by offering client centred services to children, youth and women who have experienced and/or witnessed violence. At Ernestine’s we work within an anti-racism and anti-oppression framework, and we value each person’s individual identity. Ernestine’s provides a roof over your head, a bed, basic necessities, counselling and other supportive services that are free and confidential.",
         "latitude": 43.72852865679361,
         "longitude": -79.57423786813501,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "ernestine",
+        "picture": "ernestinepic",
         "type": "shelter"
     },
     
@@ -329,8 +329,8 @@
         "about": "Anduhyaun Inc. is a not-for-profit, charitable agency founded to respond to the needs of Toronto's Indigenous women. It was first established in 1973 as a hostel. Over the last four decades, Anduhyaun Inc. has expanded to create culturally-inclusive, safe spaces for women and their children at various stages of life. Anduhyaun remains open and committed to serving the community during this difficult time. We continue to accept new clients at both our emergency shelter and transitional housing, conducting telephone interviews as needed. We are doing our part to prevent the spread of COVID-19 and follow public health directives for health and safety. Please contact us by email or telephone if you have any questions or are able to support our efforts.",
         "latitude": 43.68936961859776,
         "longitude": -79.49609703087262,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "anduhyaun",
+        "picture": "anduhyaunpic",
         "type": "shelter"
     },
     
@@ -343,8 +343,8 @@
         "about": "Armagh is a transitional supportive housing programme. Unlike a first stage or crisis shelter(which responds to short-term emergencies) we offer secure and affordable housing to abused women, with or without children, for extended periods of time.",
         "latitude": 43.51717108493355,
         "longitude": -79.62498881939501,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "Armagh",
+        "picture": "armaghpic",
         "type": "shelter"
     },
 
@@ -357,8 +357,8 @@
         "about": "To establish a network of sheltering projects which provide a safe and nurturing environment for Muslim women and children so that they may be given equal opportunities to excel, grow, and thrive with respect and dignity.",
         "latitude": 43.625400002811475,
         "longitude": -79.6651980732032,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "sakeenah",
+        "picture": "sakeenahpic",
         "type": "shelter"
     },
     
@@ -371,7 +371,7 @@
         "about": "Interim Place provides shelter, support, counseling and advocacy to help abused women and their children break the cycle of violence. We are a women-centered, anti-racist, anti-oppressive, non-profit organization serving the population of Peel.",
         "latitude": 43.704047062354746,
         "longitude": -79.64253868037558,
-        "heroPicture": "highlands",
+        "heroPicture": "interimplace",
         "picture": "",
         "type": "shelter"
     },
@@ -385,7 +385,7 @@
         "about": "If you are a woman in need of help due to Violence call us, WE CAN HELP! Interim Place provide shelter, support, counselling and advocacy to help abused women and their children break the cycle of violence.",
         "latitude": 43.55238171646751,
         "longitude": -79.58497670737475,
-        "heroPicture": "highlands",
+        "heroPicture": "interimplace",
         "picture": "",
         "type": "shelter"
     },
@@ -399,8 +399,8 @@
         "about": "Interval House is the first centre for abused women and children in Canada. We are leaders in the campaign for women’s empowerment, providing innovative, specialized services that help women survivors of intimate partner violence and their children transform their lives and break the cycle of abuse.",
         "latitude": 43.66713250204984,
         "longitude": -79.33087838250114,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "intervalhouse",
+        "picture": "intervalhousepic",
         "type": "shelter"
     },
     
@@ -413,7 +413,7 @@
         "about": "Homeward Family Shelter (operating as Julliette’s Place) takes a client-centred approach in delivering comprehensive support to women and their children fleeing violence.",
         "latitude": 43.80697729076799,
         "longitude": -79.22164421574193,
-        "heroPicture": "highlands",
+        "heroPicture": "juliettesplace",
         "picture": "",
         "type": "shelter"
     },
@@ -427,8 +427,8 @@
         "about": "La Maison est un Centre multiservices qui offre un hébergement aux femmes francophones et leurs dépendants aux prises avec la violence conjugale et familiale.",
         "latitude": 43.769619149958544,
         "longitude": -79.18303289721622,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "lamaison",
+        "picture": "lamaisonpic",
         "type": "shelter"
     },
     
@@ -441,8 +441,8 @@
         "about": "Our Mission is to operate programs and services for women and children who have and are experiencing oppressions such as violence, poverty and homelessness. Nellie’s is a community based feminist organization which operates within an anti-racism and anti-oppression framework. We are committed to social change through education and advocacy, to achieve social justice for all women and children.",
         "latitude": 43.68587399644521,
         "longitude": -79.35053718296817,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "nellies",
+        "picture": "nelliespic",
         "type": "shelter"
     },
     
@@ -455,8 +455,8 @@
         "about": "Nisa Homes is a non-government, not-for-profit charitable organisation that provides a safe haven and support services to women, children and families who are experiencing homelessness and/or domestic and family violence, poverty or seeking asylum.",
         "latitude": 43.61829093005476,
         "longitude": -79.6720139708155,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "nisahomes",
+        "picture": "nisahomespic",
         "type": "shelter"
     },
     {
@@ -468,8 +468,8 @@
         "about": "NYWS is an anti-violence centre and shelter in the North York area of Toronto that empowers women and trans folks to move forward into a life free from violence.",
         "latitude": 43.75146047831344,
         "longitude": -79.45927935991843,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "northyork",
+        "picture": "northyorkpic",
         "type": "shelter"
     },
     {
@@ -481,8 +481,8 @@
         "about": "The Redwood offers safety, healing and opportunities for growth for women and their children fleeing abuse. Families receive case management and counseling services from Resident Services Counselors, access to empowering and life-changing programs, and transitional support when they are ready to take the steps toward a new life. Free from fear. Free from threat.",
         "latitude": 43.75146047831344,
         "longitude": -79.45927935991843,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "redwood",
+        "picture": "redwoodpic",
         "type": "shelter"
     },
     
@@ -495,8 +495,8 @@
         "about": "Women’s Habitat offers a safe, confidential location with all the services a woman needs to make a new life for herself and her children.",
         "latitude": 43.60129306640834,
         "longitude": -79.50568620225279,
-        "heroPicture": "highlands",
-        "picture": "",
+        "heroPicture": "womenshabitat",
+        "picture": "womenshabitatpic",
         "type": "shelter"
     },
     
@@ -510,7 +510,7 @@
         "about": "Yellow Brick House is a place for abused women and children in York Region.",
         "latitude": 43.85618031570927,
         "longitude": -79.39197705991539,
-        "heroPicture": "highlands",
+        "heroPicture": "yellowbrick",
         "picture": "",
         "type": "shelter"
     },
@@ -525,7 +525,7 @@
         "about": "Yorktown Family Services (YFS) is a fully accredited community service agency comprised of an infant, child, and youth mental health centre; a women’s shelter and community-based violence against women services; and an integrated services site offering rapid access to multiple mental health, primary health, and social service programs for youth and young adults. For over 25 years Yorktown has been providing immediate access to a wide range of services in Toronto’s most vulnerable communities to support and equip women, children, youth and families to create positive change in their lives.",
         "latitude": 43.6952788179227,
         "longitude": -79.4553562683351,
-        "heroPicture": "highlands",
+        "heroPicture": "yorktownfamily",
         "picture": "",
         "type": "shelter"
     },

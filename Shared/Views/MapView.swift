@@ -26,7 +26,7 @@ struct MapView: View {
         
         
         
-        Map(coordinateRegion: $region, annotationItems: store.locations) { place in
+        Map(coordinateRegion: $region,  showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: store.locations) { place in
             
             
                 
