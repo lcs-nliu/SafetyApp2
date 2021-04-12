@@ -11,7 +11,7 @@ import SwiftUI
 struct MapView: View {
 
     
-    // Reference to police station store
+    // Reference to safety location store
     // Derived value
     
     @ObservedObject var store: LocationStore

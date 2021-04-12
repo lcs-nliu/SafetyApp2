@@ -9,14 +9,47 @@ import SwiftUI
 
 struct HelpPage: View {
 
+
+    // Reference to safety location store
+    // Derived value
     
+    @ObservedObject var store: TipsStore
     
     var body: some View {
-     Text("Hello World!")
+
+            List (store.tips) { tip in
+
+            VStack (alignment: .leading, spacing: 5) {
+            
+                HStack {
+                Image(systemName: "questionmark.circle")
+                    
+                Text(tip.text)
+                .bold()
+                .font(.title2)
+                }
+            Text(tip.children)
+                    
+                }
+        
+            
+            
+        }
+        
+    
+        .navigationTitle("Tips")
+        
+    }
 }
+    
+
 
 struct HelpPage_Previews: PreviewProvider {
     static var previews: some View {
-        HelpPage()
+        NavigationView {
+            HelpPage(store: testStore2)
+        }
     }
 }
+
+

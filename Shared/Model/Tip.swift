@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Tip {
+struct Tip: Decodable, Identifiable {
+    let id: Int
     let text: String
-    let children: [Tip]
+    let children: String
 }

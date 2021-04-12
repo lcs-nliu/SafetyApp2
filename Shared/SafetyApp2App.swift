@@ -23,7 +23,7 @@ struct SafetyApp2App: App {
                 }
                 
                 NavigationView{
-                    HelpPage()
+                    HelpPage(store: testStore2)
                 }
                 .tabItem {
                     Image(systemName: "questionmark.circle.fill")
