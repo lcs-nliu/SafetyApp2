@@ -1,0 +1,83 @@
+[
+	{
+		"text": "Tip 1",
+        "children": [
+            {
+                "text": "Stick to well populated, busy areas. Avoid hidden trails, short cuts through secluded areas or lanes that are not well travelled. Stay where there is traffic and other people on foot.",
+                
+            }
+        ]
+	},
+	{
+		"text": "Tip 2",
+        "children": [
+            {
+                "text": "Stay in well-lit areas. Avoid dark parking lots, dark alleys, dark lanes, dark trails, or dark anything. A well-lit path in a well-populated area is your safest route to any destination, even if it takes a bit longer."
+            }
+        ]
+	},
+	{
+		"text": "Tip 3",
+        "children": [
+            {
+                "text": "If you are out at night, wear reflective clothing so drivers can see you."
+            }
+        ]
+	},
+	{
+		"text": "Tip 4",
+        "children": [
+            {
+                "text": "Do not shut yourself off from the rest of the world. Headphones cut you off from your surroundings and make it very easy for an attacker to sneak up on you."
+            }
+        ]
+	},
+	{
+		"text": "Tip 5",
+        "children": [
+            {
+                "text": "If you think you are being followed, head into an open store, restaurant or lighted home if you cannot make it to a police station."
+            }
+        ]
+	},
+	{
+		"text": "Tip 6",
+        "children": [
+            {
+                "text": "Give directions from a distance. Do not approach a car that has stopped to ask you directions."
+            }
+        ]
+	},
+	{
+		"text": "Tip 7",
+        "children": [
+            {
+                "text": "Yell if you are under attack. Keep yelling, repeatedly. Yell as loud as you can. Scream. Be noisy. This alone may spook off the attacker."
+            }
+        ]
+	}
+    {
+        "text": "Tip 8",
+        "children": [
+            {
+                "text": "Keep your head up and look confident. Your posture can make all the difference in how you are perceived by a potential attacker. If you are looking down, seem distracted or look afraid you are more likely to become a target.."
+            }
+        ]
+    }
+    {
+        "text": "Tip 9",
+        "children": [
+            {
+                "text": "Let others know. Always leave notice of where you are going and when you are expected to return with a household member or friend who can check on you."
+            }
+        ]
+    }
+    {
+        "text": "Tip 10",
+        "children": [
+            {
+                "text": "Almost home? Have keys ready in your hands and inside your pocket. When you reach your door, you should have had your keys ready in the proper position in your hands. This will avoid a situation where you are scrambling around in your bag. When this happens, you are at risk of being distracted."
+            }
+        ]
+    }
+]
