@@ -15,6 +15,9 @@ struct HelpPage: View {
     
     @ObservedObject var store: TipsStore
     
+    // Controls whether add task is showing
+    @State private var showingAddTip = false
+    
     var body: some View {
 
             List (store.tips) { tip in
@@ -31,18 +34,27 @@ struct HelpPage: View {
             Text(tip.children)
                     
                 }
-        
-            
             
         }
         
     
         .navigationTitle("Tips")
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button("Add") {
+                        showingAddTip = true
+                    }
+                }
+            }
+            .sheet(isPresented: $showingAddTip) {
+                AddTip(store: store)
+                    
+        
         
     }
 }
     
-
+}
 
 struct HelpPage_Previews: PreviewProvider {
     static var previews: some View {
@@ -51,5 +63,6 @@ struct HelpPage_Previews: PreviewProvider {
         }
     }
 }
+
 
 

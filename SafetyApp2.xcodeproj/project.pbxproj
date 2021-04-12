@@ -29,6 +29,8 @@
 		46AA849A2623F93700212C90 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84982623F93700212C90 /* Tip.swift */; };
 		46AA84A42623FF4800212C90 /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84A32623FF4800212C90 /* TipsStore.swift */; };
 		46AA84A52623FF4800212C90 /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84A32623FF4800212C90 /* TipsStore.swift */; };
+		46AA84AB26240B2500212C90 /* AddTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84AA26240B2500212C90 /* AddTip.swift */; };
+		46AA84AC26240B2500212C90 /* AddTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84AA26240B2500212C90 /* AddTip.swift */; };
 		46EB3EDB25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
 		46EB3EDC25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,7 @@
 		46AA84932623F71F00212C90 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		46AA84982623F93700212C90 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		46AA84A32623FF4800212C90 /* TipsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsStore.swift; sourceTree = "<group>"; };
+		46AA84AA26240B2500212C90 /* AddTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTip.swift; sourceTree = "<group>"; };
 		46EB3EDA25F931C0001C07DA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +141,7 @@
 				4641BA1325C3B6990061340A /* LocationDetail.swift */,
 				46A778D425CA690800E12F1B /* MapView.swift */,
 				465AD08B25F1D89E004EAA78 /* HelpPage.swift */,
+				46AA84AA26240B2500212C90 /* AddTip.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 				4641BA1425C3B6990061340A /* LocationDetail.swift in Sources */,
 				4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08C25F1D89E004EAA78 /* HelpPage.swift in Sources */,
+				46AA84AB26240B2500212C90 /* AddTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +281,7 @@
 				4641BA1525C3B6990061340A /* LocationDetail.swift in Sources */,
 				4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08D25F1D89E004EAA78 /* HelpPage.swift in Sources */,
+				46AA84AC26240B2500212C90 /* AddTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
