@@ -19,6 +19,7 @@ struct HelpPage: View {
     @State var showingAddTip = false
     
     var body: some View {
+    
 
             List (store.tips) { tip in
 
@@ -40,12 +41,13 @@ struct HelpPage: View {
     
         .navigationTitle("Tips")
         .navigationBarItems(
-            trailing: Button(action: { self.showingAddTip =
-            true }) {
-      
-                        Text("Add")
-                    
-                }
+       trailing: Button(action: { self.showingAddTip =
+                                                        true }) {
+                
+                Text("Add")
+                
+            }
+            
             )
             .sheet(isPresented: $showingAddTip) {
                 AddTip(store: store, showing: $showingAddTip)
@@ -53,7 +55,9 @@ struct HelpPage: View {
         
         
     }
-}
+        
+    }
+
     
 }
 

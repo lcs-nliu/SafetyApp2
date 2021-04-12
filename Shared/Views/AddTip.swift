@@ -31,7 +31,11 @@ struct AddTip: View {
         }
         .navigationTitle("New Tip")
         .navigationBarItems(
-            trailing: Button(action: {
+            leading: Button(action: {
+                showing = false
+            }) {
+                Text("Cancel")
+            }, trailing: Button(action: {
                 
                 // Add the task to the list of tasks
                 self.store.tips.append(Tip(text: text, children: children))
