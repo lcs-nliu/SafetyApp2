@@ -7,8 +7,13 @@
 
 import Foundation
 
-struct Tip: Decodable, Identifiable {
-    let id: Int
-    let text: String
-    let children: String
+class Tip: Decodable, Identifiable, ObservableObject {
+    var text: String
+    var children: String
+    
+    internal init(text: String, children: String) {
+        self.text = text
+        self.children = children
+    }
+    
 }

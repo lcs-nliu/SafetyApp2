@@ -12,10 +12,16 @@ struct AddTip: View {
     @ObservedObject var store: TipsStore
     
     // Details of new tip
+    @State private var id = 0
     @State private var text = ""
     @State private var children = ""
     
+    // Whether to show this view
+    @Binding var showing: Bool
+    
     var body: some View {
+        
+        NavigationView {
         VStack {
             Form {
                 TextField("Tip Name", text: $text)
@@ -23,15 +29,44 @@ struct AddTip: View {
                 
             }
         }
-        .navigationTitle("New Reminder")
+        .navigationTitle("New Tip")
+        .navigationBarItems(
+            trailing: Button(action: {
+                
+                // Add the task to the list of tasks
+                self.store.tips.append(Tip(text: text, children: children))
+                
+                
+                // Dismiss this view
+                showing = false
+                
+            }) {
+                 
+                        Text("Save")
+                    
+                }
+            )
         
     }
+        
+    }
+    
+//    func saveTip () {
+//
+//        // Add the task to the list of tasks
+//        self.store.tips.append(Tip(text: text, children: children))
+//
+//
+//        // Dismiss this view
+//        showing = false
+//
+//    }
 }
 
 struct AddTip_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-        AddTip(store: testStore2)
-        }
+
+            AddTip(store: testStore2, showing: .constant(true))
+        
     }
 }

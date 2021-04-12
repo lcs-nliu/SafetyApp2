@@ -16,7 +16,7 @@ struct HelpPage: View {
     @ObservedObject var store: TipsStore
     
     // Controls whether add task is showing
-    @State private var showingAddTip = false
+    @State var showingAddTip = false
     
     var body: some View {
 
@@ -26,11 +26,11 @@ struct HelpPage: View {
             
                 HStack {
                 Image(systemName: "questionmark.circle")
-                    
+
                 Text(tip.text)
                 .bold()
                 .font(.title2)
-                }
+  }
             Text(tip.children)
                     
                 }
@@ -39,15 +39,16 @@ struct HelpPage: View {
         
     
         .navigationTitle("Tips")
-            .toolbar {
-                ToolbarItem(placement: .primaryAction) {
-                    Button("Add") {
-                        showingAddTip = true
-                    }
+        .navigationBarItems(
+            trailing: Button(action: { self.showingAddTip =
+            true }) {
+      
+                        Text("Add")
+                    
                 }
-            }
+            )
             .sheet(isPresented: $showingAddTip) {
-                AddTip(store: store)
+                AddTip(store: store, showing: $showingAddTip)
                     
         
         

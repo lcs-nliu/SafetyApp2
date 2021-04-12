@@ -7,7 +7,7 @@
 
 import Foundation
 class TipsStore: ObservableObject {
-    var tips: [Tip]
+    @Published var tips: [Tip]
     
     init() {
         // Pointer to JSON
