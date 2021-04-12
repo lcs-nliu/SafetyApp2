@@ -10,7 +10,7 @@ import SwiftUI
 struct HelpPage: View {
 
 
-    // Reference to safety location store
+    // Reference to tips store
     // Derived value
     
     @ObservedObject var store: TipsStore

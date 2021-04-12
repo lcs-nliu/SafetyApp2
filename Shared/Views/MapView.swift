@@ -19,8 +19,20 @@ struct MapView: View {
     
     // Map centered on GTA
     @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 43.6532, longitude: -79.3832), span: MKCoordinateSpan(latitudeDelta: 0.4, longitudeDelta: 0.3))
+    @State private var selectedType = "All"
     
     var body: some View {
+        
+        VStack {
+            
+            Picker("Type", selection: $selectedType) {
+                Text("All").tag("all")
+                Text("Shelter").tag("shelter")
+                Text("Respite").tag("respite")
+                Text("Police").tag("police")
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding(.horizontal)
         
         Map(coordinateRegion: $region,  showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: store.locations) { place in
             
@@ -39,6 +51,8 @@ struct MapView: View {
             }
             
             
+        }
+        
         }
         .navigationTitle("Toronto Map")
         

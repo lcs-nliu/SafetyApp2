@@ -54,17 +54,6 @@ struct AddTip: View {
     }
         
     }
-    
-//    func saveTip () {
-//
-//        // Add the task to the list of tasks
-//        self.store.tips.append(Tip(text: text, children: children))
-//
-//
-//        // Dismiss this view
-//        showing = false
-//
-//    }
 }
 
 struct AddTip_Previews: PreviewProvider {

@@ -31,8 +31,8 @@
 		46AA84A52623FF4800212C90 /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84A32623FF4800212C90 /* TipsStore.swift */; };
 		46AA84AB26240B2500212C90 /* AddTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84AA26240B2500212C90 /* AddTip.swift */; };
 		46AA84AC26240B2500212C90 /* AddTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84AA26240B2500212C90 /* AddTip.swift */; };
-		46EB3EDB25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
-		46EB3EDC25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
+		46AA84B62624BAC200212C90 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84B52624BAC100212C90 /* Type.swift */; };
+		46AA84B72624BAC200212C90 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84B52624BAC100212C90 /* Type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		46AA84982623F93700212C90 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		46AA84A32623FF4800212C90 /* TipsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsStore.swift; sourceTree = "<group>"; };
 		46AA84AA26240B2500212C90 /* AddTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTip.swift; sourceTree = "<group>"; };
-		46EB3EDA25F931C0001C07DA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		46AA84B52624BAC100212C90 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				4641B9A325C324410061340A /* SafetyApp2App.swift */,
-				46EB3ED925F931AD001C07DA /* Managers */,
 				4641B9C625C324830061340A /* Model */,
 				4641B9C725C324900061340A /* Views */,
 				4641B9A525C324480061340A /* Assets.xcassets */,
@@ -129,6 +128,7 @@
 				4641B9CB25C326440061340A /* safetylocations.json */,
 				4641BA0325C3B41B0061340A /* SafetyLocation.swift */,
 				4641BA0825C3B4AE0061340A /* LocationStore.swift */,
+				46AA84B52624BAC100212C90 /* Type.swift */,
 				46AA84982623F93700212C90 /* Tip.swift */,
 				46AA84A32623FF4800212C90 /* TipsStore.swift */,
 			);
@@ -144,14 +144,6 @@
 				46AA84AA26240B2500212C90 /* AddTip.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		46EB3ED925F931AD001C07DA /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				46EB3EDA25F931C0001C07DA /* LocationManager.swift */,
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +251,8 @@
 				46AA84A42623FF4800212C90 /* TipsStore.swift in Sources */,
 				46AA84992623F93700212C90 /* Tip.swift in Sources */,
 				4641BA0925C3B4AE0061340A /* LocationStore.swift in Sources */,
-				46EB3EDB25F931C0001C07DA /* LocationManager.swift in Sources */,
 				46A778D525CA690800E12F1B /* MapView.swift in Sources */,
+				46AA84B62624BAC200212C90 /* Type.swift in Sources */,
 				4641BA1425C3B6990061340A /* LocationDetail.swift in Sources */,
 				4641B9B625C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08C25F1D89E004EAA78 /* HelpPage.swift in Sources */,
@@ -276,8 +268,8 @@
 				46AA84A52623FF4800212C90 /* TipsStore.swift in Sources */,
 				46AA849A2623F93700212C90 /* Tip.swift in Sources */,
 				4641BA0A25C3B4AE0061340A /* LocationStore.swift in Sources */,
-				46EB3EDC25F931C0001C07DA /* LocationManager.swift in Sources */,
 				46A778D625CA690800E12F1B /* MapView.swift in Sources */,
+				46AA84B72624BAC200212C90 /* Type.swift in Sources */,
 				4641BA1525C3B6990061340A /* LocationDetail.swift in Sources */,
 				4641B9B725C324480061340A /* SafetyApp2App.swift in Sources */,
 				465AD08D25F1D89E004EAA78 /* HelpPage.swift in Sources */,
