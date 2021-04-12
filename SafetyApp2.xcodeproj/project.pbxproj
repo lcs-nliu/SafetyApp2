@@ -25,6 +25,8 @@
 		46A778D625CA690800E12F1B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A778D425CA690800E12F1B /* MapView.swift */; };
 		46AA84942623F71F00212C90 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 46AA84932623F71F00212C90 /* tips.json */; };
 		46AA84952623F71F00212C90 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 46AA84932623F71F00212C90 /* tips.json */; };
+		46AA84992623F93700212C90 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84982623F93700212C90 /* Tip.swift */; };
+		46AA849A2623F93700212C90 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA84982623F93700212C90 /* Tip.swift */; };
 		46EB3EDB25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
 		46EB3EDC25F931C0001C07DA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB3EDA25F931C0001C07DA /* LocationManager.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,7 @@
 		465AD08B25F1D89E004EAA78 /* HelpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage.swift; sourceTree = "<group>"; };
 		46A778D425CA690800E12F1B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		46AA84932623F71F00212C90 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		46AA84982623F93700212C90 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		46EB3EDA25F931C0001C07DA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +123,7 @@
 				4641B9CB25C326440061340A /* safetylocations.json */,
 				4641BA0325C3B41B0061340A /* SafetyLocation.swift */,
 				4641BA0825C3B4AE0061340A /* LocationStore.swift */,
+				46AA84982623F93700212C90 /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4641BA0425C3B41C0061340A /* SafetyLocation.swift in Sources */,
+				46AA84992623F93700212C90 /* Tip.swift in Sources */,
 				4641BA0925C3B4AE0061340A /* LocationStore.swift in Sources */,
 				46EB3EDB25F931C0001C07DA /* LocationManager.swift in Sources */,
 				46A778D525CA690800E12F1B /* MapView.swift in Sources */,
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4641BA0525C3B41C0061340A /* SafetyLocation.swift in Sources */,
+				46AA849A2623F93700212C90 /* Tip.swift in Sources */,
 				4641BA0A25C3B4AE0061340A /* LocationStore.swift in Sources */,
 				46EB3EDC25F931C0001C07DA /* LocationManager.swift in Sources */,
 				46A778D625CA690800E12F1B /* MapView.swift in Sources */,
