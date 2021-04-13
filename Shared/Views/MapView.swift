@@ -26,7 +26,7 @@ struct MapView: View {
         VStack {
             
             Picker("Type", selection: $selectedType) {
-                Text("All").tag("all")
+                Text("All").tag("All")
                 Text("Shelter").tag("shelter")
                 Text("Respite").tag("respite")
                 Text("Police").tag("police")
@@ -34,7 +34,7 @@ struct MapView: View {
             .pickerStyle(SegmentedPickerStyle())
             .padding(.horizontal)
         
-        Map(coordinateRegion: $region,  showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: store.locations) { place in
+        Map(coordinateRegion: $region,  showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: store.filteredLocations(with: selectedType)) { place in
             
             
             
